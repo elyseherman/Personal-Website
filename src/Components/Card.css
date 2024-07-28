@@ -1,0 +1,91 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(128, 78, 78, 0);
+    transition: background-color 0.2s ease;
+    border-radius: 5px;
+    height: auto;
+    text-align: left;
+    color: white;
+    padding: 20px; 
+    gap: 20px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+.card-left-component {
+    padding-left: 20px;
+    width: 100px;
+    flex: 0 0 auto;
+}
+
+.card-right-component {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.flex-container:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+} 
+
+.flex-container:hover .title {
+    color: #faf2da;
+}
+
+.years-present {
+    margin-top: 5px;
+}
+
+.title {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.description {
+    margin-top: 0px;
+    color: white;
+}
+
+.projects-in-progress-title {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    
+}
+
+.projects-in-progress-title > p {
+    text-align: left;
+    padding-left: 1rem;
+    font-size: 12px;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+
+.projects-in-progress-title > h4 {
+    margin: 0px;
+}
+
+@media(min-width: 320px) {
+    .flex-container {
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .card-left-component {
+        padding-left: 0px;
+        width: max-content;
+    }
+}
+
+@media(min-width: 1024px) {
+    .flex-container {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .card-left-component {
+        padding-left: 20px;
+        width: 100px;
+    }
+}

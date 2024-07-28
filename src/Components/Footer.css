@@ -1,0 +1,13 @@
+
+.footer p {
+    margin-bottom: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: #faf2da;
+}
