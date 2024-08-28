@@ -10,7 +10,7 @@ class Experience extends Component {
             <div>
                 <ExperienceCard 
                 yearsPresent='JUNE 2024 - PRESENT' 
-                jobTitle='Software Developer · SUTO Inc.' 
+                jobTitle='Software Engineer · SUTO Inc.' 
                 description='Developed an application that connects professional and amateur private chefs to clients using React Native and Javascript, improving performance and maintainability. Lead a team of software developers, increasing productivity and code quality through mentorship and collaboration. Managed the development pipeline and infrastructure for the application, ensuring efficient CI/CD processes and scalability.'
                 tag1='React' tag2='JavaScript' tag3='HTML' tag4='CSS'
                 />
